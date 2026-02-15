@@ -6,7 +6,6 @@ client
 bot
 
 # --- Fichiers systèmes & Pipes (FIFO) ---
-# Votre code crée des fichiers comme client_0_in, client_1_out, etc.
 client_*_in
 client_*_out
 
@@ -25,4 +24,5 @@ stats_joueurs.txt
 # --- OS & Editeurs ---
 .DS_Store
 .vscode/
+
 Thumbs.db
