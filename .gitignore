@@ -1,0 +1,28 @@
+# --- Compilation C ---
+*.o
+build/
+serveur
+client
+bot
+
+# --- Fichiers systèmes & Pipes (FIFO) ---
+# Votre code crée des fichiers comme client_0_in, client_1_out, etc.
+client_*_in
+client_*_out
+
+# --- Logs et Données ---
+*.log
+stats_joueurs.txt
+
+# --- LaTeX / PDF (Générés par stats.sh) ---
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.tex
+*.pdf
+
+# --- OS & Editeurs ---
+.DS_Store
+.vscode/
+Thumbs.db
